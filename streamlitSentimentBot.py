@@ -95,7 +95,6 @@ def generate_wordcloud(text):
 def main():
     st.title('Sentiment Analysis and Visualizations of Comments')
     st.subheader("Note:", divider='rainbow')
-    st.write("Asigurați-vă că fișierul este în format CSV și conține un cap de tabel.Coloana cu textul de analizat trebuie să fie denumită 'comment'.")
     st.write(" Make sure the file is in CSV format and contains a table header. The column with the text to be analysed must be named 'comment'.")
     
   
